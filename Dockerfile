@@ -42,7 +42,8 @@ RUN apt-get update \
 # install poetry - respects $POETRY_VERSION & $POETRY_HOME
 # RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 # RUN pip install poetry poetry init
-RUN curl -sSL https://install.python-poetry.org | python3 -
+# RUN curl -sSL https://install.python-poetry.org | python3 -
+RUN curl -sSL https://raw.githubusercontent.com.sdispater/poetry/get-poetry.py | python
 
 # install postgres dependencies inside of Docker
 RUN apt-get update \
