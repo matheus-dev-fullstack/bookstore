@@ -45,6 +45,9 @@ RUN apt-get update \
 # RUN curl -sSL https://install.python-poetry.org | python3 -
 RUN curl -sSL https://raw.githubusercontent.com.sdispater/poetry/get-poetry.py | python
 
+RUN curl -sSL https://install.python-poetry.org | python3 -
+
+
 # install postgres dependencies inside of Docker
 RUN apt-get update \
     && apt-get -y install libpq-dev gcc \
