@@ -145,7 +145,7 @@ REST_FRAMEWORK = {
 }
 
 INTERNAL_IPS = [
-    '127.0.0.1',
+    "127.0.0.1",
 ]
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
