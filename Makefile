@@ -85,8 +85,8 @@ deps-py: $(PYTHON_VERSION_FILE) ## Installs Python development and runtime depen
 		--index-url $(PYPI_PROXY) \
 		pip
 	$(PIP) install --upgrade \
-									--index-url $(PYPI_PROXY) \
-									poetry
+                                     		--index-url $(PYPI_PROXY) \
+                                     		poetry
 	$(POETRY) install
 
 ##@ Code Quality
