@@ -29,9 +29,6 @@ jobs:
     - name: View poetry --help
       run: poetry --help
 
-    - name: Clear Poetry Cache
-      run: poetry cache clear --all pypi
-
     - name: Install dependencies
       shell: bash
       run: python -m poetry install
