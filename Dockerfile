@@ -1,3 +1,5 @@
+# Exercício Modulo 19
+
 # `python-base` sets up all our shared environment variables
 FROM python:3.12.0-slim as python-base
 # FROM python:3.8.1-slim as python-base
