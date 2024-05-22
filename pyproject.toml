@@ -8,8 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pytest = "^8.0.2"
+psycopg2-binary = "*"
 factory-boy = "^3.3.0"
 django = "^5.0.3"
+django-rest-framework = "^0.1.0"
+django-extensions = "^3.2.3"
+django-debug-toolbar = "^4.3.0"
+flake8 = "^7.0.0"
 
 
 [build-system]
