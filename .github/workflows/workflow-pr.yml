@@ -1,7 +1,7 @@
+# Exercício EBAC - Github Actions and Code Review Automation
 name: Python Pull Request Workflow
 on: [pull_request]
 jobs:
-
   qa:
     name: Quality check
     runs-on: ubuntu-18.04
