@@ -163,4 +163,4 @@ INTERNAL_IPS = [
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 # ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ebac-bookstore-api.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'my-bookstore-api-0110678b8cbd.herokuapp.com']
