@@ -3,7 +3,7 @@ from django.test import TestCase
 from product.factories import CategoryFactory, ProductFactory
 from product.serializers import CategorySerializer
 
-
+# Exercício EBAC - tests
 class TestCategorySerializer(TestCase):
     def setUp(self) -> None:
         self.category = CategoryFactory(title="food")
