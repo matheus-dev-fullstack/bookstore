@@ -49,4 +49,5 @@ Rotas:
 
 http://127.0.0.1:8000/bookstore/v1/product/
 http://127.0.0.1:8000/bookstore/v1/category/
+
 http://127.0.0.1:8000/bookstore/v1/order/
