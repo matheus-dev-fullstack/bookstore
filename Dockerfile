@@ -3,6 +3,7 @@
 # `python-base` sets up all our shared environment variables
 FROM python:3.12.0-slim as python-base
 # FROM python:3.8.1-slim as python-base
+RUN apt-get update && apt-get install -y git
 
     # python
 ENV PYTHONUNBUFFERED=1 \
@@ -45,10 +46,8 @@ RUN apt-get update \
 # RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 # RUN pip install poetry poetry init
 # RUN curl -sSL https://install.python-poetry.org | python3 -
-RUN curl -sSL https://raw.githubusercontent.com.sdispater/poetry/get-poetry.py | python
 
 RUN curl -sSL https://install.python-poetry.org | python3 -
-
 
 # install postgres dependencies inside of Docker
 RUN apt-get update \
